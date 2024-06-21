@@ -1,0 +1,13 @@
+{"totalCourses": "numbers of courses",
+"courses":[
+    {
+        "source":{"platform": "name of the website","poweredBy": "name of the course conducters also teachers"},
+        "technology": "programming language and other technology that course offers",
+        "title": "courses info in short",
+        "duration": "duration of course",
+        "paidFree": "course is paid or free",
+        "certified": "if free so certificate is given or not",
+        "imageUrl": "link",
+        "courseUrl": "direct link of the course",
+    }
+]}
