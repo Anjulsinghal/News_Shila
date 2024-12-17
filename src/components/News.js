@@ -65,12 +65,12 @@ const News = (props)=> {
         >
         <div className="container">
         <div className="row">
-        {articles.map((element)=>{
+        {  (articles.map((element)=>{
             return <div className="col-md-3" key={element.url}>
                    <NewsItem source={element.source.name} author={element.author} date={element.publishedAt} title={element.title?element.title.slice(0,40):""} description={element.description?element.description.slice(0,88):""} imageUrl={element.urlToImage} newsUrl={element.url}/>
                    </div>
 
-        })}
+        }))}
         </div>
         </div>
         </InfiniteScroll>
